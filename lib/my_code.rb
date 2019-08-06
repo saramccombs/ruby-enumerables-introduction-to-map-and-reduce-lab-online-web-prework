@@ -65,10 +65,11 @@ end
 def reduce_to_any_true(source_array)
   index = 0 
   
-  while source_array[index] do
+  while index < source_array[index] do
     return true if source_array[index]
     index += 1 
-    
+  end
+  
   
   end
   
