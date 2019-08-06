@@ -45,9 +45,8 @@ def reduce_to_total(source_array, starting_point*)
   index = 0 
   total = 0 
   
-  while index <
-  source_array.length.times do |index|
-    total = total + source_array[index]
+  while index < source_array.length do
+    total += source_array[index]
   end
   
   return total
