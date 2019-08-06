@@ -65,4 +65,6 @@ end
 def reduce_to_any_true(source_array)
   index = 0 
   
+  
+  
 end
