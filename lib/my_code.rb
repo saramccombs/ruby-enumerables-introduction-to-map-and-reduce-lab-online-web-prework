@@ -55,7 +55,7 @@ end
 
 def reduce_to_all_true(source_array)
   index = 0 
-  while source_array[index] do
+  while index < source_array[index] do
     return false if !source_array[index]
     index += 1 
   end
