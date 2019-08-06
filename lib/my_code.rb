@@ -46,7 +46,7 @@ def reduce_to_total(source_array, starting_point*)
   total = 0 
   
   if starting_point
-    total = total + starting_point
+    total = starting_point
   end
 
   source_array.length.times do |index|
